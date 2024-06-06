@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #1e90ff;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+#login-form {
+    margin: 20px;
+}
+
+#player-name {
+    padding: 10px;
+    font-size: 1em;
+}
+
+#login-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#login-button:hover {
+    background-color: #4169e1;
+}
+
+#game {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+#player-info {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+#jeopardy-board {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+.category {
+    background-color: #00008b;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.question {
+    background-color: #1e90ff;
+    color: white;
+    padding: 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.question:hover {
+    background-color: #4169e1;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    text-align: left;
+}
+
+#reveal-answer {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#reveal-answer:hover {
+    background-color: #4169e1;
+}
+
+#buzzer-section {
+    margin-top: 20px;
+}
+
+#buzz-button {
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#buzz-button:hover {
+    background-color: #4169e1;
+}

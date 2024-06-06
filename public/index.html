@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeopardy Trivia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jeopardy Trivia</h1>
+    <div id="login-form">
+        <input type="text" id="player-name" placeholder="Enter your name">
+        <button id="login-button">Sign In</button>
+    </div>
+    <div id="game" style="display: none;">
+        <div id="player-info"></div>
+        <div id="jeopardy-board"></div>
+    </div>
+    <div id="question-modal" class="modal">
+        <div class="modal-content">
+            <p id="question-text"></p>
+            <button id="reveal-answer">Reveal Answer</button>
+            <p id="answer-text"></p>
+            <div id="buzzer-section">
+                <button id="buzz-button">Buzz In</button>
+                <p id="buzz-info"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
